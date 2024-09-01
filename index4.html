@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Pré-conexão para otimizar o carregamento de fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Link para importar a fonte 'Outfit' do Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <!-- Seção de navegação com botões para diferentes páginas -->
+      <nav class="nav">
+        <button class="button">
+          <a class="btnCollor" href="index.html">Sobre mim</a>
+        </button>
+        <button class="button">
+          <a class="btnCollor" href="index2.html">Formação</a>
+        </button>
+        <button class="button">
+          <a class="btnCollor" href="index3.html">Portifólio</a>
+        </button>
+        <button class="button">
+          <a class="btnCollor" href="index4.html">Contato</a>
+        </button>
+      </nav>
+
+      <!-- Seção principal com a imagem e informações de boas-vindas -->
+      <section class="section">
+        <!-- Imagem principal -->
+        <img src="imgprincipal.webp" alt="" class="imgPrincipal" />
+
+        <!-- Título de boas-vindas -->
+        <h1>Contato(a)</h1>
+        <div class="container">
+          <form action="">
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" required />
+            <br /><br />
+            <label for="contato">Contato: </label>
+            <input type="text" name="number" id="number" />
+            <br /><br />
+            <label for="Mensagem">Mensagem: </label>
+            <textarea name="Mensagem" id="Mensagem"></textarea>
+            <br /><br />
+            <button class="button">Enviar</button>
+          </form>
+        </div>
+        <footer class="footer">
+          <p>Todos os direitos reservados ©copyright Pedro Augusto</p>
+        </footer>
+      </section>
+    </div>
+  </body>
+</html>
